@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Satisfy', cursive;
+    background-color: #faeedf;
+    overflow-x: hidden;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+#tittle{
+    padding-left: 22px;
+}
+
+ul{
+    list-style: none;
+    display: flex; 
+    justify-content: space-around;
+    width: 500px;
+    font-size: 20px;  
+}
+
+#boas-vindas{
+    height: 90px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 20px;
+    padding: 40px;
+}
+
+#section{
+    border:3.5px solid;
+    border-color: #e1c079;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 10px;
+}
+
+.sections, .section-boas-vindas{
+    height: 220px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin: 15px;
+    background-color: #efa1a1;
+}
+
+img{
+    width: 220px;
+    border-radius: 0 0px 130px 0px;
+}
+
+h2{
+    position: relative;
+    font-size: 30px;
+    left: 250px;
+    bottom: 190px;
+}
+
+.sections a{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    left: 245px;
+    bottom: 155px;
+    background-color: #dda5f1;
+    padding: 10px;
+    color: #000;
+    border-radius: 8px;
+}
+
+
+ @media (max-width:425px) {
+
+    h1{
+        font-size: 18px;
+    }
+
+    ul{padding-top: 15px;
+        width: 500px;
+        font-size: 18px;  
+    }
+
+    .navbar{
+        padding: 25px;
+    }
+
+    #boas-vindas{
+        height: 200px;
+        font-size: 15px;
+        padding: 20px;
+    }
+    
+    img{
+        width: 170px;
+        border-radius: 0 0px 130px 0px;
+    }
+
+    .sections, .section-boas-vindas{
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto; 
+        margin: 15px;
+        background-color: #efa1a1;
+    }
+    
+    h2{
+        position: relative;
+        font-size: 22px;
+        left: 190px;
+        bottom: 160px;
+    }
+
+    .sections a{
+        position: relative;
+        font-size: 12px;
+        left: 190px;
+        bottom: 125px;
+        padding: 10px;
+    }
+} 
